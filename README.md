@@ -4,7 +4,7 @@ A simple browser-based Rock Paper Scissors game built with vanilla HTML, CSS, an
 
 ## Demo
 
-Open `rock-paper-scissors.html` in any browser — no installation or server needed.
+🎮 **[Play the game here](https://ollie202.github.io/Rock-Paper-Scissors-Game/)**
 
 ## Features
 
@@ -18,7 +18,7 @@ Open `rock-paper-scissors.html` in any browser — no installation or server nee
 
 ```
 Rock-Paper-Scissors-Game/
-├── rock-paper-scissors.html   # Main game page
+├── index.html                 # Main game page
 ├── scripts/
 │   └── rock-paper-scissors.js # Game logic
 ├── styles/
@@ -35,7 +35,7 @@ Rock-Paper-Scissors-Game/
    ```bash
    git clone https://github.com/Ollie202/Rock-Paper-Scissors-Game.git
    ```
-2. Open `rock-paper-scissors.html` in your browser.
+2. Open `index.html` in your browser.
 
 No build step or dependencies required.
 
