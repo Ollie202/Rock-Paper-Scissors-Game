@@ -13,6 +13,7 @@ A simple browser-based Rock Paper Scissors game built with vanilla HTML, CSS, an
 - Tracks your Wins, Losses, and Ties across sessions using `localStorage`
 - Reset your score at any time with the Reset button
 - Dark theme UI
+- Keyboard shortcuts: press **R** for Rock, **P** for Paper, **S** for Scissors
 
 ## Project Structure
 
