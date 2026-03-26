@@ -8,15 +8,15 @@
   <body>
     <p class="title">Rock Paper Scissors</p>
 
-    <button class="move-button js-rock-button" onclick="playGame('rock');">
+    <button class="move-button js-rock-button">
       <img class="move-icon" src="images/rock-emoji.png">
     </button>
 
-    <button class="move-button js-paper-button" onclick="playGame('paper');">
+    <button class="move-button js-paper-button">
       <img class="move-icon" src="images/paper-emoji.png">
     </button>
 
-    <button class="move-button js-scissors-button" onclick="playGame('scissors');">
+    <button class="move-button js-scissors-button">
       <img class="move-icon" src="images/scissors-emoji.png">
     </button>
 
@@ -38,16 +38,5 @@
 
     <script src="scripts/rock-paper-scissors.js"></script>
 
-    <script>
-      document.addEventListener('keydown', (event) => {
-        if (event.key === 'r') {
-          playGame('rock')
-        } else if (event.key === 'p') {
-          playGame('paper')
-        } else if (event.key === 's') {
-          playGame('scissors')
-        }
-      })
-    </script>
   </body>
 </html>
