@@ -1,3 +1,5 @@
+ console.log('script loaded');
+
 let score = JSON.parse(localStorage.getItem('score'));
 
   if (score === null) {
